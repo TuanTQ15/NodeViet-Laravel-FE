@@ -7,7 +7,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="section-title text-center">
-                            <h2 class="mb-3 mt-50">Thống kê dự án</h2>
+                            <h2 class="project-lists mb-3 mt-50">Thống kê dự án</h2>
                             <p>Dưới đây là thống kê các dự án đang trong quá trình chạy testnet, những dự án sắp chạy và những dự án đã kết thúc testnet.</p>
                         </div>
                     </div>

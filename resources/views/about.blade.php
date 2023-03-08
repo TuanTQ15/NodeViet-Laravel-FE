@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="crd-details-content">
-                            <h4 class="mb-2">Node & Validator VietNam</h4>
+                            <h4 class="mb-2">Node & Validator VietNam</h4><hr>
                             <p>Là một cộng đồng chạy node xác thực và hỗ trợ blockchain tại Việt Nam. Cộng đồng này tập trung vào việc xây dựng mạng lưới blockchain bền vững và an toàn bằng cách chạy node xác thực và đóng góp vào các giao thức blockchain.</p>
                             <p>Một trong những nhiệm vụ quan trọng của cộng đồng Node & Validator VietNam là hướng dẫn cài đặt và vận hành chạy các trình xác thực (validator) trên các giao thức blockchain. Đây là một công việc khó khăn đối với các nhà phát triển mới bắt đầu tham gia vào lĩnh vực blockchain. Vì vậy, cộng đồng đã tạo ra các hướng dẫn chi tiết và hỗ trợ kỹ thuật cho các thành viên mới.</p>
                             <p>Các thành viên của cộng đồng Node & Validator VietNam có thể tìm thấy các tài liệu hướng dẫn chi tiết về cài đặt và vận hành validator trên các trang web và blog của cộng đồng. Các hướng dẫn này cung cấp thông tin về việc tạo các node và validator, cấu hình các tham số chính, kiểm tra tính khả dụng của các node và validator, và nhiều hơn nữa.</p>
@@ -15,8 +15,8 @@
                             <p>Ngoài ra, cộng đồng cũng đưa ra các hướng dẫn cụ thể về các vấn đề kỹ thuật phức tạp hơn liên quan đến việc cài đặt và vận hành node validator. Các thành viên mới có thể tìm thấy thông tin hữu ích về cách xử lý các lỗi và vấn đề kỹ thuật, như việc khắc phục sự cố mất kết nối với mạng lưới hoặc tăng cường bảo mật.</p>
                             <p>Nhờ sự hướng dẫn và hỗ trợ của cộng đồng Node & Validator VietNam, các thành viên mới có thể nhanh chóng tiếp cận và tham gia vào hoạt động chạy node và validator trên các giao thức blockchain. Bên cạnh đó, cộng đồng cũng sẵn sàng giúp đỡ các nhà phát triển và doanh nghiệp muốn chạy node xác thực trên các giao thức blockchain.</p>
                         </div>
-                        <div class="crd-details-content">
-                            <h4 class="mb-2">Node & Validator VietNam (English)</h4>
+                        <div class="crd-details-content"><br>
+                            <h4 class="mb-2">Node & Validator VietNam (English)</h4><hr>
                             <p>As a community running nodes and validators supporting blockchain in Vietnam, this community focuses on building a sustainable and secure blockchain network by running validators and contributing to blockchain protocols.</p>
                             <p>One of the important tasks of the Node & Validator VietNam community is to provide guidance on installing and operating validators on blockchain protocols. This is a challenging task for developers who are new to the blockchain field. Therefore, the community has created detailed instructions and technical support for new members.</p>
                             <p>Members of the Node & Validator VietNam community can find detailed guidance on installing and operating validators on the community's websites and blogs. These instructions provide information on creating nodes and validators, configuring key parameters, checking the availability of nodes and validators, and much more.</p>

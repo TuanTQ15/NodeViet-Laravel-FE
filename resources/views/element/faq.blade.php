@@ -4,7 +4,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="text-center">
-                    <h2>Những câu hỏi thường gặp</h2>
+                    <h2 id="faq_qa">Những câu hỏi thường gặp</h2>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@
                         <ul class="hm2-server-tab-control nav nav-tabs border-0" role="tablist">
                             <li><button data-bs-toggle="tab" data-bs-target="#faq_could_hosting" aria-selected="true" role="tab" class="active"><i class="fa-solid fa-cloud-meatball"></i><span class="ms-3">Node là gì?</span></button></li>
                             <li><button data-bs-toggle="tab" data-bs-target="#faq_vps_hosting" aria-selected="false" role="tab" class="" tabindex="-1"><i class="fa-solid fa-database"></i><span class="ms-3">Mua VPS ở đâu để chạy node?</span></button></li>
-                            <li><button data-bs-toggle="tab" data-bs-target="#faq_wp_hosting" aria-selected="false" role="tab" class="" tabindex="-1"><i class="fa-brands fa-warning"></i><span class="ms-3">Bạn đang gặp lỗi?</span></button></li>
+                            <li><button data-bs-toggle="tab" data-bs-target="#faq_wp_hosting" aria-selected="false" role="tab" class="" tabindex="-1"><i class="fa fa-exclamation-triangle"></i><span class="ms-3">Bạn đang gặp lỗi?</span></button></li>
                             <li><button class="" data-bs-toggle="tab" data-bs-target="#faq_shared_hosting" aria-selected="false" role="tab" tabindex="-1"><i class="fa-solid fa-server"></i><span class="ms-3">Kiểm tra trạng thái</span></button></li>
                         </ul>
                     </div>

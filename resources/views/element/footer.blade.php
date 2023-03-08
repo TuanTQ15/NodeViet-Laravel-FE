@@ -22,11 +22,12 @@
                                 <h5 class="text-white position-relative mb-5 widget-title">Liên kết</h5>
                                 <ul class="footer-nav">
                                     <li><a href="{{ route('faucet') }}">Faucet</a></li>
-                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#project-lists">Project</a></li>
                                     <li><a href="#">Tool</a></li>
                                     <li><a href="#">Guide</a></li>
-                                    <li><a href="#">Blog</a></li>
                                     <li><a href="#">Contact</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -42,9 +43,9 @@
                             <div class="footer-widget footer-widget-3 mt-2">
                                 <h5 class="text-white position-relative mb-5 widget-title">Hỗ trợ</h5>
                                 <ul class="footer-nav">
-                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#faq_qa">FAQ</a></li>
                                     <li><a href="#">Terms & Conditions </a></li>
-                                    <li><a href="#">rivacy Policy </a></li>
+                                    <li><a href="#">Privacy Policy </a></li>
                                 </ul>
                             </div>
                         </div>
