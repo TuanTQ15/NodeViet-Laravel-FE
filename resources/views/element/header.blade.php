@@ -28,6 +28,8 @@
                                         <ul>
                                             <li><a href=" /">Home</a>
                                             </li>
+                                            <li><a href=" /">Blog</a>
+                                            </li>
                                             <li><a href="{{route('faucet')}}">Faucet</a></li>
                                             <li class="has-submenu"><a href="#">Tool</a>
                                                 <div class="submenu-wrapper menu-list theme-megamenu">
@@ -81,20 +83,11 @@
                             </div>
                             <div class="col-xl-2 col-lg-3 col-6">
                                 <div class="header-right d-flex align-items-center justify-content-end">
-                                    <div class="lang-switcher d-none d-sm-block dropdown">
+                                    <div class="lang-switcher d-none d-sm-block">
                                         <a href="#"><span class="me-1"><i class="fa-solid fa-globe"></i></span>Vn</a>
-                                        <!-- <div class="dropdown-menu dropdown-menu-end">
-                                            <ul>
-                                                <li><a href="#">Dutch</a></li>
-                                                <li><a href="#">Bangla</a></li>
-                                                <li><a href="#">Chinese</a></li>
-                                                <li><a href="#">Italian</a></li>
-                                                <li><a href="#">French</a></li>
-                                                <li><a href="#">German</a></li>
-                                                <li><a href="#">Bangla</a></li>
-                                                <li><a href="#">English</a></li>
-                                            </ul>
-                                        </div> -->
+                                    </div>
+                                    <div class="lang-switcher d-none d-sm-block">
+                                        <a href="#"><span class="me-1"></i></span>En</a>
                                     </div>
                                     <div class="header-search position-relative dropdown next">
                                         <button class="border-0" data-bs-toggle="dropdown">

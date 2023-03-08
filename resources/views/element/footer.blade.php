@@ -6,7 +6,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="footer-widget footer-widget-1">
                                 <a href="index.html" class="footer-logo"><img src="assets/img/logo-white.png" class="logo" alt="logo"></a>
-                                <p class="text-white mt-30">My service is not something I even think about because it is always there as we agreed. The customer service is responsive and knowledge needs for</p>
+                                <p class="text-white mt-30">Touch the success! Sharing is powerr</p>
                                 <div class="footer-social mt-5">
                                     <h5 class="ft-subtitle text-white position-relative d-inline-block">Follow us on</h5>
                                     <ul class="social-nav mt-3">
@@ -21,11 +21,11 @@
                             <div class="footer-widget footer-widget-2 mt-2">
                                 <h5 class="text-white position-relative mb-5 widget-title">Liên kết</h5>
                                 <ul class="footer-nav">
-                                    <li><a href="{{ route('faucet') }}">Faucet</a></li>
                                     <li><a href="#">Blog</a></li>
-                                    <li><a href="#project-lists">Project</a></li>
                                     <li><a href="#">Tool</a></li>
                                     <li><a href="#">Guide</a></li>
+                                    <li><a href="{{ route('faucet') }}">Faucet</a></li>
+                                    <li><a href="#project-lists">Project</a></li>
                                     <li><a href="#">Contact</a></li>
                                     <li><a href="{{ route('about') }}">About Us</a></li>
                                 </ul>

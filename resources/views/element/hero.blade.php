@@ -7,7 +7,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="hero1-content-wrap">
-                                <h1 class="display-font mt-4">Node <mark class="position-relative">VietNam</mark></h1>
+                                <h1 class="display-font mt-4">Node & Validator <mark class="position-relative">VietNam</mark></h1>
                                 <p class="lead mt-4">Touch the success! <mark class="text-warning">Sharing is power</mark></p>
                             </div>
                         </div>

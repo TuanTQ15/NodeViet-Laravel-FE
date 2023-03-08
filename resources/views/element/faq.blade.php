@@ -110,12 +110,12 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="faq_vps_hosting" role="tabpanel">
-                            <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_3">
+                            <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_2">
                                 <div class="accordion-item">
                                     <div class="accordion-header">
                                         <a href="#sh_12" data-bs-toggle="collapse">Mục đích sử dụng VPS để chạy node</a>
                                     </div>
-                                    <div class="accordion-collapse collapse show" id="sh_12" data-bs-parent="#accordion_3">
+                                    <div class="accordion-collapse collapse show" id="sh_12" data-bs-parent="#accordion_2">
                                         <div class="accordion-body">
                                         <p class="mb-0">VPS (Virtual Private Server) là một dịch vụ lưu trữ trên máy chủ ảo, cho phép người dùng có thể cài đặt và chạy các ứng dụng và phần mềm trên một môi trường độc lập. Đối với một cá nhân mới bắt đầu chạy, thì bắt đầu với VPS là tốt nhất mục đích để làm quen và thực hành cách thức cài đặt node.</p><br>
                                         <p class="mb-0">Với VPS, cá nhân có thể chạy một node blockchain 24/7 trên một môi trường độc lập với các ứng dụng khác, mà không cần phải đảm bảo máy tính của mình luôn hoạt động. Việc sử dụng VPS giúp cho node blockchain có thể chạy ổn định, không bị gián đoạn, đồng thời giúp tăng tốc độ xác thực giao dịch và đóng góp vào tính toàn vẹn của mạng blockchain.</p>
@@ -124,23 +124,36 @@
                                 </div>
                                 <div class="accordion-item">
                                     <div class="accordion-header">
-                                        <a href="#sh_13" data-bs-toggle="collapse" class="collapsed">How many websites can I host?</a>
+                                        <a href="#sh_13" data-bs-toggle="collapse" class="collapsed">Đối với người mới thì nên sử dụng VPS free trial hay là thuê VPS?</a>
                                     </div>
                                     <div class="accordion-collapse collapse" id="sh_13" data-bs-parent="#accordion_3">
                                         <div class="accordion-body">
-                                            <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
+                                            <p class="mb-0">Hầu hết các bạn điều biết, đã và đang dùng "Free trial" của Vultr, DO, Google Cloud, Azure, Amazon với các mức tín dụng khác nhau, ưu điểm(rất rẻ) và nhược điểm chỉ có thể sử dụng nhiều nhất 2 tháng. Vậy điều mình muốn nói ở đây chính là một dự án node thường chúng ta phải chạy ít nhất là 2 tháng và trung bình là từ 3-6 tháng thậm chí hơn, cho nên VPS free trial chỉ là một giải pháp tạm thời và tùy thuộc vào dự án.</p><br>
+                                            <p class="mb-0">Và điều đáng nói ở đây là đối với "người mới" thì việc backup và chuyển node sang một VPS khác tương đối là phức tạp (xét theo tình hình hiện tại của thành viên trong nhóm), giá dụ như các bạn không biết backup và không thể duy chuyển sang VPS khác, vậy nếu 1 VPS free trial đột nhiên lăn đùng ra chết thì xem như các bạn đang ở thế bí và không biết cách giải quyết thì công sức 1-2 tháng chạy node xem như mất trắng.</p><br>
+                                            <p class="mb-0">Vì thế nên tùy từng loại dự án mà các bạn nên tự cân nhắc chọn một giải pháp tốt nhất để tránh những trường hợp không mong muốn xảy ra.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-header">
+                                        <a href="#sh_14" data-bs-toggle="collapse" class="collapsed">Nếu chọn một giải pháp an toàn và lâu dài thì nên thuê VPS ở đâu là tốt nhất?</a>
+                                    </div>
+                                    <div class="accordion-collapse collapse" id="sh_14" data-bs-parent="#accordion_4">
+                                        <div class="accordion-body">
+                                            <p class="mb-0">Không chỉ đáp ứng về cấu hình, tốc độ mạng mà phải đáp ứng được những điều kiện như (Tiết kiệm chi phí, hiệu suất ổn định, dịch vụ tốt).</p><br>
+                                            <p class="mb-0">Sau khi sử dụng hầu hết các dịch vụ cung cấp VPS thì chúng mình đánh giá cao nhất hiện tại đó là <a href="https://hetzner.cloud/?ref=3o943lkE6aXa" target="_blank">Hetzner</a>.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade active show" id="faq_could_hosting" role="tabpanel">
-                            <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_4">
+                            <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_5">
                                 <div class="accordion-item">
                                     <div class="accordion-header">
-                                        <a href="#sh_14" data-bs-toggle="collapse">Node là gì? và có bao nhiêu loại node.</a><br>
+                                        <a href="#sh_15" data-bs-toggle="collapse">Node là gì? và có bao nhiêu loại node.</a><br>
                                     </div>
-                                    <div class="accordion-collapse collapse show" id="sh_14" data-bs-parent="#accordion_4">
+                                    <div class="accordion-collapse collapse show" id="sh_15" data-bs-parent="#accordion_5">
                                         <div class="accordion-body">
                                             <p class="mb-0">Node trong blockchain là một máy tính hoặc thiết bị kết nối với mạng blockchain để tham gia vào việc xác nhận giao dịch và tạo các khối mới.</p><br>
                                             <p class="mb-0">Trong hệ thống blockchain, có nhiều loại node khác nhau tùy thuộc vào mục đích và chức năng của chúng. Tuy nhiên, NodeVietNam sẽ liệt kê ra một số loại node phổ biến nhất trong blockchain như sau:</p><br>
