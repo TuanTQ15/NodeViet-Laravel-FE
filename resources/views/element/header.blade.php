@@ -47,7 +47,7 @@
                                                                 </a></div>
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <div class="megamenu-item"><a href="black-friday.html">
+                                                            <div class="megamenu-item"><a href="#">
                                                                     <div class="menu-list-wrapper d-flex align-items-center">
                                                                         <span class="icon-wrapper"><i class="fa-brands fa-buffer"></i></span>
                                                                         <div class="menu-list-content-right ms-3">

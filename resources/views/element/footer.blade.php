@@ -5,7 +5,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
                             <div class="footer-widget footer-widget-1">
-                                <a href="index.html" class="footer-logo"><img src="assets/img/logo-white.png" class="logo" alt="logo"></a>
+                                <a href=" /" class="footer-logo"><img src="assets/img/logo-white.png" class="logo" alt="logo"></a>
                                 <p class="text-white mt-30">Touch the success! Sharing is powerr</p>
                                 <div class="footer-social mt-5">
                                     <h5 class="ft-subtitle text-white position-relative d-inline-block">Follow us on</h5>
