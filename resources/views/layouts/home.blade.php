@@ -50,6 +50,7 @@
             @include('element.preload')
             @include('element.hero')
             @yield('main')
+            @include('element.partners')
             @include('element.faq')
             @include('element.footer')
             @include('element.gotop')

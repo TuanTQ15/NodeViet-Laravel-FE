@@ -10,56 +10,42 @@
                                 <div class="footer-social mt-5">
                                     <h5 class="ft-subtitle text-white position-relative d-inline-block">Follow us on</h5>
                                     <ul class="social-nav mt-3">
-                                        <li><a href="#" class="rounded-circle overflow-hidden position-relative d-flex align-items-center justify-content-center text-white"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#" class="rounded-circle overflow-hidden position-relative d-flex align-items-center justify-content-center text-white"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#" class="rounded-circle overflow-hidden position-relative d-flex align-items-center justify-content-center text-white"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#" class="rounded-circle overflow-hidden position-relative d-flex align-items-center justify-content-center text-white"><i class="fab fa-linkedin"></i></a></li>
+                                        <li><a href="https://t.me/RunnodeVietNamese" class="rounded-circle overflow-hidden position-relative d-flex align-items-center justify-content-center text-white" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                                        <li><a href="https://twitter.com/NodeValidatorVN" class="rounded-circle overflow-hidden position-relative d-flex align-items-center justify-content-center text-white" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.youtube.com/@nodevalidatorvietnam" class="rounded-circle overflow-hidden position-relative d-flex align-items-center justify-content-center text-white" target="_blank"><i class="fab fa-youtube"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-3 col-sm-6">
                             <div class="footer-widget footer-widget-2 mt-2">
-                                <h5 class="text-white position-relative mb-5 widget-title">Quick Links</h5>
+                                <h5 class="text-white position-relative mb-5 widget-title">Liên kết</h5>
                                 <ul class="footer-nav">
-                                    <li><a href="contact.html">Support Center</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="domain.html">Search Domain</a></li>
-                                    <li><a href="login.html">My Account</a></li>
-                                    <li><a href="login.html">Customer Profiles</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="{{ route('faucet') }}">Faucet</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="#">Tool</a></li>
+                                    <li><a href="#">Guide</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-3 col-sm-6">
                             <div class="footer-widget footer-widget-3 mt-2">
-                                <h5 class="text-white position-relative mb-5 widget-title">Services</h5>
+                                <h5 class="text-white position-relative mb-5 widget-title">Dịch vụ</h5>
                                 <ul class="footer-nav">
-                                    <li><a href="shared-hosting.html">Shared Hosting</a></li>
-                                    <li><a href="wp-hosting.html">WordPress Hosting</a></li>
-                                    <li><a href="vps-hosting.html">VPS Hosting</a></li>
-                                    <li><a href="index-3.html">Game Hosting</a></li>
-                                    <li><a href="vps-hosting.html">Dedicated Hosting</a></li>
-                                    <li><a href="domain.html">Domain Name</a></li>
+                                    <li><a href="#">Coming soon</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-8">
-                            <div class="footer-widget footer-sb-widget mt-2">
-                                <h5 class="text-white position-relative mb-5 widget-title">Get In Touch</h5>
-                                <form action="#" class="footer-sb-form position-relative">
-                                    <input type="email" placeholder="Type Your Mail">
-                                    <button type="submit" class="template-btn primary-btn btn-small">Subscribe</button>
-                                </form>
-                                <!-- <div class="ft-payment-method mt-40">
-                                    <h5 class="text-white position-relative ft-subtitle d-inline-block">We Accepted</h5>
-                                    <ul class="payment-list d-flex align-items-center mt-3">
-                                        <li class="d-inline-flex align-items-center justify-content-center"><img src="assets/img/visa.png" alt="visa" class="img-fluid"></li>
-                                        <li class="d-inline-flex align-items-center justify-content-center"><img src="assets/img/mastercard.png" alt="mastercard" class="img-fluid"></li>
-                                        <li class="d-inline-flex align-items-center justify-content-center"><img src="assets/img/payoneer.png" alt="payoneer" class="img-fluid"></li>
-                                        <li class="d-inline-flex align-items-center justify-content-center"><img src="assets/img/paypal.png" alt="paypal" class="img-fluid"></li>
-                                    </ul>
-                                </div> -->
+                        <div class="col-lg-2 col-md-3 col-sm-6">
+                            <div class="footer-widget footer-widget-3 mt-2">
+                                <h5 class="text-white position-relative mb-5 widget-title">Hỗ trợ</h5>
+                                <ul class="footer-nav">
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Terms & Conditions </a></li>
+                                    <li><a href="#">rivacy Policy </a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>

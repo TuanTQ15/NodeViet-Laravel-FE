@@ -27,7 +27,7 @@
 
         </div>
         <div class="explore-btn mt-5 text-center">
-            <a href="project.html" class="template-btn primary-btn rounded-pill">View more</a>
+            <a href="#" class="template-btn primary-btn rounded-pill">View more</a>
         </div>
       </div>
     </section>
