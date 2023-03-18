@@ -45,6 +45,8 @@ COPY .env.example .env
 # Generate application key
 RUN php artisan key:generate
 
-# No need to EXPOSE any ports since it’s handled by web server
+# Run migrations
+RUN php artisan migrate
 
-# Remove CMD, because default Laravel server is not used for production environment.
+# The following CMD can be adjusted for other commands
+ENTRYPOINT ["php-fpm"]

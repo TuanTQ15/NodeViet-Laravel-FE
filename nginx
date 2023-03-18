@@ -1,6 +1,20 @@
-events {}
+events {
+  # Options related to network connections and event handling
+}
 
 http {
+  # Define one or more virtual servers
+  server {
+    listen 80;
+    server_name localhost;
+
+    location / {
+      proxy_pass http://app:8000;
+      proxy_set_header Host $host;
+      proxy_set_header X-Real-IP $remote_addr;
+    }
+  }
+
   server {
     listen 80;
     server_name nodevietnam.com;
