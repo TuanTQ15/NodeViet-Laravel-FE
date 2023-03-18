@@ -16,7 +16,7 @@
                             <li><button data-bs-toggle="tab" data-bs-target="#faq_could_hosting" aria-selected="true" role="tab" class="active"><i class="fa-solid fa-cloud-meatball"></i><span class="ms-3">Node là gì?</span></button></li>
                             <li><button data-bs-toggle="tab" data-bs-target="#faq_vps_hosting" aria-selected="false" role="tab" class="" tabindex="-1"><i class="fa-solid fa-database"></i><span class="ms-3">Mua VPS ở đâu để chạy node?</span></button></li>
                             <li><button data-bs-toggle="tab" data-bs-target="#faq_wp_hosting" aria-selected="false" role="tab" class="" tabindex="-1"><i class="fa fa-exclamation-triangle"></i><span class="ms-3">Bạn đang gặp lỗi?</span></button></li>
-                            <li><button class="" data-bs-toggle="tab" data-bs-target="#faq_shared_hosting" aria-selected="false" role="tab" tabindex="-1"><i class="fa-solid fa-server"></i><span class="ms-3">Kiểm tra trạng thái</span></button></li>
+                            <li><button data-bs-toggle="tab" data-bs-target="#faq_shared_hosting" aria-selected="false" role="tab" tabindex="-1"><i class="fa-solid fa-server"></i><span class="ms-3">Kiểm tra trạng thái</span></button></li>
                         </ul>
                     </div>
                 </div>
@@ -26,9 +26,9 @@
                             <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_1">
                                 <div class="accordion-item">
                                     <div class="accordion-header">
-                                        <a href="#sh_1" data-bs-toggle="collapse">Cài đặt ứng dụng để kiểm tra RAM - CPU, các ứng dụng chạy nền trên VPS/Ubuntu.</a>
+                                        <a href="#sh_1" data-bs-toggle="collapse" class="collapsed">Cài đặt ứng dụng để kiểm tra RAM - CPU, các ứng dụng chạy nền trên VPS/Ubuntu.</a>
                                     </div>
-                                    <div class="accordion-collapse collapse show" id="sh_1" data-bs-parent="#accordion_1">
+                                    <div class="accordion-collapse collapse" id="sh_1" data-bs-parent="#accordion_1">
                                         <div class="accordion-body">
                                             <p class="mb-0">- Nhập lệnh cài đặt: sudo apt install htop.</p>
                                             <p class="mb-0">- Nhập lệnh: htop.</p>
@@ -113,9 +113,9 @@
                             <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_2">
                                 <div class="accordion-item">
                                     <div class="accordion-header">
-                                        <a href="#sh_12" data-bs-toggle="collapse">Mục đích sử dụng VPS để chạy node</a>
+                                        <a href="#sh_12" data-bs-toggle="collapse" class="collapsed">Mục đích sử dụng VPS để chạy node</a>
                                     </div>
-                                    <div class="accordion-collapse collapse show" id="sh_12" data-bs-parent="#accordion_2">
+                                    <div class="accordion-collapse collapse" id="sh_12" data-bs-parent="#accordion_2">
                                         <div class="accordion-body">
                                         <p class="mb-0">VPS (Virtual Private Server) là một dịch vụ lưu trữ trên máy chủ ảo, cho phép người dùng có thể cài đặt và chạy các ứng dụng và phần mềm trên một môi trường độc lập. Đối với một cá nhân mới bắt đầu chạy, thì bắt đầu với VPS là tốt nhất mục đích để làm quen và thực hành cách thức cài đặt node.</p><br>
                                         <p class="mb-0">Với VPS, cá nhân có thể chạy một node blockchain 24/7 trên một môi trường độc lập với các ứng dụng khác, mà không cần phải đảm bảo máy tính của mình luôn hoạt động. Việc sử dụng VPS giúp cho node blockchain có thể chạy ổn định, không bị gián đoạn, đồng thời giúp tăng tốc độ xác thực giao dịch và đóng góp vào tính toàn vẹn của mạng blockchain.</p>
@@ -151,9 +151,9 @@
                             <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_5">
                                 <div class="accordion-item">
                                     <div class="accordion-header">
-                                        <a href="#sh_15" data-bs-toggle="collapse">Node là gì? và có bao nhiêu loại node.</a><br>
+                                        <a href="#sh_15" data-bs-toggle="collapse" class="collapsed">Node là gì? và có bao nhiêu loại node.</a><br>
                                     </div>
-                                    <div class="accordion-collapse collapse show" id="sh_15" data-bs-parent="#accordion_5">
+                                    <div class="accordion-collapse collapse" id="sh_15" data-bs-parent="#accordion_5">
                                         <div class="accordion-body">
                                             <p class="mb-0">Node trong blockchain là một máy tính hoặc thiết bị kết nối với mạng blockchain để tham gia vào việc xác nhận giao dịch và tạo các khối mới.</p><br>
                                             <p class="mb-0">Trong hệ thống blockchain, có nhiều loại node khác nhau tùy thuộc vào mục đích và chức năng của chúng. Tuy nhiên, NodeVietNam sẽ liệt kê ra một số loại node phổ biến nhất trong blockchain như sau:</p><br>

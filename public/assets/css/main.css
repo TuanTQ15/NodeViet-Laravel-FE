@@ -24058,7 +24058,9 @@
     }
   }
   .logo {
-    max-width: 160px;
+    padding: 10px;
+    width: 230px;
+    height: 100%;
   }
   .nav-menu {
     padding: 0 15px;
@@ -25988,12 +25990,6 @@
     display: none;
   }
   .dark-light-switcher.active .light-sun {
-    display: block;
-  }
-  .logo-white {
-    display: none;
-  }
-  .logo-black {
     display: block;
   }
   .bg-primary-gradient {

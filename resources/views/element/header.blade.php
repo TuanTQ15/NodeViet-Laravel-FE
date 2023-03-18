@@ -2,13 +2,13 @@
         <header class="header-section header-gradient">
             <div class="topbar">
                 <div class="container">
-                    <div class="row align-item-center">
-                        <div class="col-md-12">
+                    <div class="row col-md-12 align-item-center">
+                        <!-- <div class="col-md-12">
                             <div class="topbar-right text-end">
                                 <a href="#">Login</a>
                                 <a href="#">Sign up</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -16,13 +16,10 @@
                 <div class="container">
                     <div class="nav-menu bg-white">
                         <div class="row align-items-center">
-                            <div class="col-lg-2 col-6">
-                                <div class="logo-wrapper">
-                                    <a href=" /" class="logo-black"><img src="assets/img/logo.png" alt="logo" class="logo"></a>
-                                    <a href=" /" class="logo-white"><img src="assets/img/logo-white.png" alt="logo" class="logo"></a>
-                                </div>
+                            <div class="col-lg-4 col-10">
+                                    <a href=" /"><img src="assets/img/Node-logo.png" alt="logo" class="logo"></a>
                             </div>
-                            <div class="col-xl-8 col-lg-7 d-none d-lg-block">
+                            <div class="col-xl-6 col-lg-4 d-none d-lg-block">
                                 <div class="nav-wrapper">
                                     <nav>
                                         <ul>
@@ -102,10 +99,10 @@
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="ofcanvus-btns next">
+                                    <!-- <div class="ofcanvus-btns next">
                                         <a href="#" class="ofcanvus-btn d-none d-lg-block"><i class="fa-solid fa-bars-staggered"></i></a>
                                         <a href="#" class="mobile-menu-toggle d-lg-none"><i class="fa-solid fa-bars-staggered"></i></a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
