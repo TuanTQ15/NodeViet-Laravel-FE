@@ -52,6 +52,6 @@
             @yield('main')
             @include('element.footer')
             @include('element.gotop')
-            @include('element.js')
+            @include('element.Js')
     </body>
 </html>
