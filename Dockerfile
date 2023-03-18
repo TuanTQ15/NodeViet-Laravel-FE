@@ -45,8 +45,6 @@ COPY .env.example .env
 # Generate application key
 RUN php artisan key:generate
 
-# Expose port 8000
-EXPOSE 8000
+# No need to EXPOSE any ports since it’s handled by web server
 
-# Start the application
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
+# Remove CMD, because default Laravel server is not used for production environment.
