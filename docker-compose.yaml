@@ -7,8 +7,6 @@ services:
       dockerfile: Dockerfile
     image: laravel-app
     container_name: laravel-app
-    ports:
-      - "8000:8000"
     volumes:
       - .:/var/www/html
     environment:
@@ -29,3 +27,11 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=secret
       - MYSQL_DATABASE=laravel
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx:/etc/nginx/nodeviet.conf
+    depends_on:
+      - app
