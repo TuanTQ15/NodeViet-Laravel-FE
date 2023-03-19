@@ -5,6 +5,7 @@
     <!--required meta tags-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <!--twitter og-->
     <meta name="twitter:site" content="@themetags" />

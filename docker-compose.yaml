@@ -32,9 +32,10 @@ services:
     image: nginx:latest
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       - ./nginx:/etc/nginx/nginx.conf
-      - ./certificate_crt:/etc/ssl/certificate.crt
-      - ./certificate_key:/etc/ssl/certificate.key
+      - ./certificate_crt:/etc/nginx/ssl/certificate.crt
+      - ./certificate_key:/etc/nginx/ssl/certificate.key
     depends_on:
       - app

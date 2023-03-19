@@ -26,7 +26,8 @@ logs_f:
 	docker logs app -f --tail 100
 
 build-image:
-	docker-compose up --remove-orphans --build --no-start laravel-app
+	docker-compose up --remove-orphans --build --no-start app
+	restart
 	
 deploy: build-image
 	docker-compose restart app
