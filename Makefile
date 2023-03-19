@@ -27,4 +27,4 @@ build-image:
 	docker-compose up --remove-orphans --build --no-start backend
 	
 deploy: build-image
-	docker-compose restart backend
+	docker-compose restart app
