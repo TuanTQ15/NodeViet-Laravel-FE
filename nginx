@@ -36,4 +36,19 @@ http {
       proxy_set_header X-Real-IP $remote_addr;
     }
   }
+
+  server {
+    listen 443 ssl;
+    server_name nodevietnam.com;
+
+    ssl_certificate /etc/ssl/certificate.crt;
+    ssl_certificate_key /etc/ssl/certificate.key;
+
+    root /var/www/html;
+    location / {
+      proxy_pass http://app:9000;
+      proxy_set_header Host $host;
+      proxy_set_header X-Real-IP $remote_addr;
+    }
+  }
 }

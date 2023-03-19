@@ -34,5 +34,7 @@ services:
       - "80:80"
     volumes:
       - ./nginx:/etc/nginx/nginx.conf
+      - ./certificate_crt:/etc/ssl/certificate.crt
+      - ./certificate_key:/etc/ssl/certificate.key
     depends_on:
       - app

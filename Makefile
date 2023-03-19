@@ -4,6 +4,7 @@ SHELL := /bin/bash
 
 start: 
 	@echo "Starting..."
+	composer install
 	docker-compose up -d
 stop:
 	@echo "Stopping..."
@@ -14,6 +15,7 @@ restart: stop start
 destroy:
 	@echo "Destroying..."
 	docker-compose down -v --rmi all
+	sudo rm -rf data
 
 Restart: destroy start
 
