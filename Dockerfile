@@ -45,8 +45,8 @@ COPY .env.example .env
 # Generate application key
 RUN php artisan key:generate
 
-# Run migrations
-RUN php artisan migrate
+# Expose port 8000
+EXPOSE 8000
 
-# The following CMD can be adjusted for other commands
-ENTRYPOINT ["php-fpm"]
+# Start the application
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]

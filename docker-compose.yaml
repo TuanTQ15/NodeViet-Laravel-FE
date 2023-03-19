@@ -35,6 +35,6 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./nginx:/etc/nginx/nodeviet.conf
+      - ./nginx:/etc/nginx/nginx.conf
     depends_on:
       - app

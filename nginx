@@ -1,5 +1,5 @@
 events {
-  # Options related to network connections and event handling
+  worker_connections  1024;
 }
 
 http {
@@ -31,7 +31,7 @@ http {
     server_name 68.183.216.117;
     root /var/www/html;
     location / {
-      proxy_pass http://app:8000;
+      proxy_pass http://app:8080;
       proxy_set_header Host $host;
       proxy_set_header X-Real-IP $remote_addr;
     }
