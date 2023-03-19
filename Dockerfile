@@ -22,7 +22,9 @@ RUN apk update && \
     apk del --no-cache --purge
 
 # Install Composer
-COPY --from=composer /usr/bin/composer /usr/bin/composer
+RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
+    && php composer-setup.php --filename=composer --install-dir=/usr/local/bin \
+    && php -r "unlink('composer-setup.php');"
 
 # Set working directory
 WORKDIR /var/www/html
