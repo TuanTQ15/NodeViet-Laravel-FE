@@ -7,13 +7,13 @@ start:
 	docker-compose up -d
 stop:
 	@echo "Stopping..."
-	docker compose down
+	docker-compose down
 
 restart: stop start
 
 destroy:
 	@echo "Destroying..."
-	docker compose down -v --rmi all
+	docker-compose down -v --rmi all
 
 Restart: destroy start
 
