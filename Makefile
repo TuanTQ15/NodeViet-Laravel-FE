@@ -18,10 +18,10 @@ destroy:
 Restart: destroy start
 
 logs:
-	docker logs be_container
+	docker-compose logs -f --tail 150
 
 logs_f:
-	docker logs be_container -f --tail 100
+	docker logs app -f --tail 100
 
 build-image:
 	docker-compose up --remove-orphans --build --no-start backend
