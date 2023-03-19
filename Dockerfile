@@ -45,8 +45,6 @@ COPY .env.example .env
 # Generate application key
 RUN php artisan key:generate
 
-# Expose port 8000
-EXPOSE 8000
 
 # Start the application
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=9000"]
